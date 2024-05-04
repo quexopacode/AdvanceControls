@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_marginLeft="25dp"
+        android:id="@+id/imvFoto"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/rdr"/>
+
+    <LinearLayout
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/lblTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="TITULO"/>
+        <TextView
+            android:id="@+id/lblSubtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBTITULO"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblReciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="HACE 1 ANIO"/>
+
+    <TextView
+        android:id="@+id/lblPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="105 GB"/>
+
+    <ImageView
+        android:id="@+id/imvIcono"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/points"/>
+
+
+</LinearLayout>
